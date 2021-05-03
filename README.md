@@ -18,3 +18,4 @@ There are 4 basic make commands that can be used:
 # TODO:
 - Implement support for the other Arduino libraries.
 - Implement support for other Arduino variants.
+- Clean up the code and improve it in some places.
