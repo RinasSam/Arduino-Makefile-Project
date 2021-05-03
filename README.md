@@ -7,3 +7,4 @@ Change the value of `MAIN_SKETCH` to be the name of your sketch.
 
 # TODO:
 - Implement support for the other Arduino libraries.
+- Implement support for other Arduino variants.
