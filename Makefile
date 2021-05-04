@@ -99,7 +99,7 @@ build:
 	mv $(MAIN_SKETCH).hex $(BIN)
 
 upload:
-	avrdude -C"$(ARDUINO_DIR)hardware\tools\avr\etc\avrdude.conf" -F -V -c arduino -p ATMEGA328P -PCOM3 -b 115200 -U flash:w:$(BIN)sketch.cpp.hex
+	avrdude -C"$(ARDUINO_DIR)hardware\tools\avr\etc\avrdude.conf" -F -V -c arduino -p $(MCU) -PCOM3 -b 115200 -U flash:w:$(BIN)$(MAIN_SKETCH).hex
 clean: eep_clean obj_clean bin_clean
 
 eep_clean:
